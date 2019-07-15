@@ -136,7 +136,7 @@ if __name__ == '__main__':
         bot = InstaBot(username, password)
         bot.login()
         print("Logged in")
-        #bot.run()
+        bot.run()
         comment_success_count = bot.comment_success_count
         
     except WebDriverException as e:
