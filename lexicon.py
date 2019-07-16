@@ -3,8 +3,8 @@
 
 HASHTAGS = [
     'foodporn',
-    'instafood', 
-    'yummy', 'eat', 'delicious', 'photooftheday', 'dinner', 'cooking', 'tasty', 'bread', 'amazing'
+    #'instafood', 
+    #'yummy', 'eat', 'delicious', 'photooftheday', 'dinner', 'cooking', 'tasty', 'bread', 'amazing'
 ]
 
 COMMENTS = [
