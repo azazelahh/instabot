@@ -17,15 +17,15 @@ class InstaBot:
 
         self.comment_success_count = 0
 
-        GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
-        CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.binary_location = GOOGLE_CHROME_BIN
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--no-sandbox')
-        self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        #self.driver = webdriver.Chrome('./chromedriver')
+        #GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
+        #CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
+        #chrome_options = webdriver.ChromeOptions()
+        #chrome_options.binary_location = GOOGLE_CHROME_BIN
+        #chrome_options.add_argument('--headless')
+        #chrome_options.add_argument('--disable-gpu')
+        #chrome_options.add_argument('--no-sandbox')
+        #self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
+        self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
@@ -42,7 +42,7 @@ class InstaBot:
 
         
     def run(self):
-        top_posts = self.get_top_posts(2)
+        top_posts = self.get_top_posts(11)
         for post in top_posts:
             try:
                 print('Accessing post {}'.format(post))
@@ -60,7 +60,7 @@ class InstaBot:
         self.like()
         time.sleep(1)
 
-        #self.comment()
+        self.comment()
         time.sleep(1)
 
         self.comment_success_count = self.comment_success_count + 1
