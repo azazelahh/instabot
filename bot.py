@@ -42,7 +42,7 @@ class InstaBot:
 
         
     def run(self):
-        top_posts = self.get_top_posts(1)
+        top_posts = self.get_top_posts(2)
         for post in top_posts:
             try:
                 self.engage(post)
