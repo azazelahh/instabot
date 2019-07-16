@@ -60,7 +60,7 @@ class InstaBot:
         self.like()
         time.sleep(1)
 
-        self.comment()
+        #self.comment()
         time.sleep(1)
 
         self.comment_success_count = self.comment_success_count + 1
