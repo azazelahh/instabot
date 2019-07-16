@@ -45,6 +45,7 @@ class InstaBot:
         top_posts = self.get_top_posts(2)
         for post in top_posts:
             try:
+                print('Accessing post {}'.format(post))
                 self.engage(post)
             except Exception as e:
                 log(post)
@@ -88,6 +89,7 @@ class InstaBot:
     def like(self):
         like_button = self.driver.find_element_by_xpath("//span[@aria-label='Like']")
         like_button.click()
+        print('Post was liked')
 
 
     def comment(self):
@@ -104,6 +106,7 @@ class InstaBot:
            time.sleep(key_press_delay)
 
         comment_area().send_keys(Keys.RETURN)
+        print('Post was commented on')
 
 
 def send_email(subject, message, sender_email, receiver_email, password):
