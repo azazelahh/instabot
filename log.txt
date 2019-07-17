@@ -2,3 +2,132 @@ Finished execution at 2019-07-14 15:37:58.135995
  Successful comment count 0
 Finished execution at 2019-07-14 15:39:21.909371 
  Successful comment count 0
+https://www.instagram.com/p/Bz_RZnYHEeV/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_iE6oF5CN/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_aUi6FQIQ/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_fkXVlmIt/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_kNTSl9AQ/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_T_3VJjaO/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x1WrFeh1/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x1H0Hkly/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_dxQ2BVmx/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_VaL5oh6Y/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_J9qMJii5/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_tcIwhoNF/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_p0E3navw/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x1Q-hSdU/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_ThJjBYw0/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_QOPXnkRb/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_R7eVFD6b/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-7tddHeTb/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_tK5JBhXr/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_S4UJluGo/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x2emF5Ke/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_pUB_HRiD/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-_M0SFVUI/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-vNy4HUNM/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-qwRpBQN8/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_WAoGl7Rj/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_QDleDi90/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x3BRFngO/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x2I_Hidi/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-8a1yAoru/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_lY3aBsli/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_EYrLlFXb/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_Euv6nN1w/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x3AOlKCd/
+Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@aria-label='Like']"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.5 x86_64)
+
+https://www.instagram.com/p/Bz_x2qoHnBi/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_mwnUHtuh/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_l21LF_Es/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_kMGQnO-Z/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_kgQvHJ8I/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x4CVn6MS/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x36bH8My/
+list index out of range
+https://www.instagram.com/p/Bz_mbPXoVld/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_svXUH70F/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x3_XpiB5/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x3WNA0Rl/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_Kcc4FZxp/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_QuQmBiV3/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-79wVogKH/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-3cz8gHJz/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-m1okB9sb/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-X2mdnkXK/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x48nA61N/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_YHeEn-Qn/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_Di89n-v-/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_MYjkn0FR/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz-tN7anmAN/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x43fAQKO/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_x3qqosSU/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_Of2EId-O/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_oeGUn1zv/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_Uh4-BZ2H/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_i_a5F-zd/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
+https://www.instagram.com/p/Bz_cLgJF_3V/
+'utf8' codec can't decode byte 0xe2 in position 0: unexpected end of data
