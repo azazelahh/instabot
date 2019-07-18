@@ -3,6 +3,7 @@ import time
 import random
 import datetime
 import lexicon
+import emoji
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
@@ -17,15 +18,15 @@ class InstaBot:
 
         self.comment_success_count = 0
 
-        #GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
-        #CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
-        #chrome_options = webdriver.ChromeOptions()
-        #chrome_options.binary_location = GOOGLE_CHROME_BIN
-        #chrome_options.add_argument('--headless')
-        #chrome_options.add_argument('--disable-gpu')
-        #chrome_options.add_argument('--no-sandbox')
-        #self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        self.driver = webdriver.Chrome('./chromedriver')
+        GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
+        CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.binary_location = GOOGLE_CHROME_BIN
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')
+        self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
+        #self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
@@ -64,7 +65,7 @@ class InstaBot:
         time.sleep(1)
 
         self.comment_success_count = self.comment_success_count + 1
-        sleep_time = random.randint(18, 28)
+        sleep_time = random.randint(25, 35)
         time.sleep(sleep_time)
 
 
@@ -100,14 +101,19 @@ class InstaBot:
 
         comment = random.choice(lexicon.COMMENTS)
 
-        for letter in comment:
-           comment_area().send_keys(letter)
-           key_press_delay = random.randint(1, 7) / 30
-           time.sleep(key_press_delay)
+        try:
 
-        comment_area().send_keys(Keys.RETURN)
-        print('Post was commented on')
+            for letter in comment:
+                comment_area().send_keys(letter)
+                key_press_delay = random.randint(1, 7) / 30
+                time.sleep(key_press_delay)
 
+            comment_area().send_keys(Keys.RETURN)
+            print('Post was commented on {0}'.format(comment))
+
+        except Exception as e:
+            print("Failed to comment {0}".format(comment))
+            print(str(e))
 
 def send_email(subject, message, sender_email, receiver_email, password):
     port = 465  # For SSL
@@ -138,7 +144,6 @@ if __name__ == '__main__':
         password = os.environ.get('INSTAGRAM_PASSWORD')
         bot = InstaBot(username, password)
         bot.login()
-        print("Logged in")
         bot.run()
         comment_success_count = bot.comment_success_count
         
@@ -150,5 +155,6 @@ if __name__ == '__main__':
         bot.driver.close()
 
     message = "Finished execution at {0} \n Successful comment count {1}".format(datetime.datetime.now(), comment_success_count)
-    #log(message)
+    log(message)
+    
     print(message)
