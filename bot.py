@@ -18,15 +18,15 @@ class InstaBot:
 
         self.comment_success_count = 0
 
-        GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
-        CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.binary_location = GOOGLE_CHROME_BIN
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--no-sandbox')
-        self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        #self.driver = webdriver.Chrome('./chromedriver')
+        # GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
+        # CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.binary_location = GOOGLE_CHROME_BIN
+        # chrome_options.add_argument('--headless')
+        # chrome_options.add_argument('--disable-gpu')
+        # chrome_options.add_argument('--no-sandbox')
+        # self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
+        self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
@@ -59,13 +59,13 @@ class InstaBot:
         time.sleep(1)
 
         self.like()
-        time.sleep(1)
+        time.sleep(2)
 
         self.comment()
         time.sleep(1)
 
         self.comment_success_count = self.comment_success_count + 1
-        sleep_time = random.randint(25, 35)
+        sleep_time = random.randint(28, 34)
         time.sleep(sleep_time)
 
 
@@ -156,5 +156,4 @@ if __name__ == '__main__':
 
     message = "Finished execution at {0} \n Successful comment count {1}".format(datetime.datetime.now(), comment_success_count)
     log(message)
-    
     print(message)
