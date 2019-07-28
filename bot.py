@@ -17,15 +17,15 @@ class InstaBot:
 
         self.comment_success_count = 0
 
-        # GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
-        # CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
-        # chrome_options = webdriver.ChromeOptions()
-        # chrome_options.binary_location = GOOGLE_CHROME_BIN
-        # chrome_options.add_argument('--headless')
-        # chrome_options.add_argument('--disable-gpu')
-        # chrome_options.add_argument('--no-sandbox')
-        # self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        self.driver = webdriver.Chrome('./chromedriver')
+        GOOGLE_CHROME_BIN = os.environ.get('GOOGLE_CHROME_BIN')
+        CHROMEDRIVER_PATH = os.environ.get('CHROMEDRIVER_PATH')
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.binary_location = GOOGLE_CHROME_BIN
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--no-sandbox')
+        self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
+        #self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
