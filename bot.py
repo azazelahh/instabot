@@ -3,7 +3,6 @@ import time
 import random
 import datetime
 import lexicon
-import emoji
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
