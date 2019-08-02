@@ -58,7 +58,7 @@ class InstaBot:
         time.sleep(1)
 
         self.like()
-        time.sleep(2)
+        time.sleep(3)
 
         self.comment()
         time.sleep(1)
