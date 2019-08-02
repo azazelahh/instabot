@@ -4,12 +4,12 @@
 HASHTAGS = [
     'foodporn',
     'instafood', 
-    'yummy', 'eat', 'delicious', 'photooftheday', 'dinner', 'cooking', 'tasty', 'bread', 'amazing'
+    #'yummy', 'eat', 'delicious', 'photooftheday', 'dinner', 'cooking', 'tasty', 'bread', 'amazing'
 ]
 
 COMMENTS = [
     u'Your posts are amazing. ❤️', 
-    u'Amazing work. Keep going! ',
+    u'Amazing work. Keep going!',
     u'Thank you for sharing this.',
     u'Your photos are magic.',
     u'Pure magic.',
@@ -31,7 +31,7 @@ COMMENTS = [
     u'You have an awesome profile ❤️.',
     u'This is so tempting 😍.',
     u'How cool is this?! ❤️',
-    u'You rock! ',
+    u'You rock!👍🏽',
     u'You post great content.',
     u'Nice pic! How is your day?',
     u'Wonderful share! 😍',
