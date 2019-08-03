@@ -25,7 +25,7 @@ class InstaBot:
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        #self.driver = webdriver.Chrome('./chromedriver')
+        # self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
@@ -58,7 +58,7 @@ class InstaBot:
         time.sleep(1)
 
         self.like()
-        time.sleep(3)
+        time.sleep(1)
 
         self.comment()
         time.sleep(1)
@@ -112,7 +112,7 @@ class InstaBot:
 
         except Exception as e:
             print("Failed to comment {0}".format(comment))
-            print(str(e))
+            log(str(e))
 
 def send_email(subject, message, sender_email, receiver_email, password):
     port = 465  # For SSL
@@ -137,11 +137,11 @@ if __name__ == '__main__':
 
     print("Just woke up at {0}".format(datetime.datetime.now()))
     comment_success_count = 0
+    username = os.environ.get('INSTAGRAM_USERNAME')
+    password = os.environ.get('INSTAGRAM_PASSWORD')
+    bot = InstaBot(username, password)
 
     try:
-        username = os.environ.get('INSTAGRAM_USERNAME')
-        password = os.environ.get('INSTAGRAM_PASSWORD')
-        bot = InstaBot(username, password)
         bot.login()
         bot.run()
         comment_success_count = bot.comment_success_count
