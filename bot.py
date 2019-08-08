@@ -25,7 +25,7 @@ class InstaBot:
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, options=chrome_options)  
-        # self.driver = webdriver.Chrome('./chromedriver')
+        #self.driver = webdriver.Chrome('./chromedriver')
        
 
     def login(self):
@@ -99,6 +99,7 @@ class InstaBot:
         comment_area().clear()
 
         comment = random.choice(lexicon.COMMENTS)
+        
 
         try:
 
@@ -140,8 +141,10 @@ if __name__ == '__main__':
     username = os.environ.get('INSTAGRAM_USERNAME')
     password = os.environ.get('INSTAGRAM_PASSWORD')
     bot = InstaBot(username, password)
+    
 
     try:
+        
         bot.login()
         bot.run()
         comment_success_count = bot.comment_success_count
